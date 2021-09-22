@@ -7,14 +7,13 @@ function App() {
   return (
    
     <div className="App">
-     <Person>
-
-     </Person>
+     <Person name="sakib"></Person>
     </div>
   );
 }
- function Person()
+ function Person(props)
  {
+   console.log(props);
    const person={
     backgroundColor: "goldenrod",
     color:"#ffffff",
@@ -23,7 +22,7 @@ function App() {
    return (  
 
      <div style={person} >
-       <h1>this is </h1>
+       <h1>this is {props.name} </h1>
      </div>
    );
  }
