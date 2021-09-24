@@ -32,12 +32,12 @@
   color:#ffffff;
 }
 .part2{
-  background-color: goldenrod;
+  background-color: rgb(162, 218, 32);
   color:#ffffff;
   width: 50%;
 }
 .part-2{
-  color: greenyellow;
+  color: rgb(196, 90, 218);
 }
 
 @keyframes App-logo-spin {

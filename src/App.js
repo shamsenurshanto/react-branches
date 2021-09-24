@@ -16,7 +16,7 @@ function App() {
    const person={
     backgroundColor: "goldenrod",
     color:"#ffffff",
-    width: "50%"
+    width: "52%"
    }
    return (  
 
