@@ -18,18 +18,20 @@ const Countries = () => {
     
      return (  
   
-      <div>
+      <div className="">
          <h4>
       The countries are {country.length}
-      { 
+     <div className="design">
+     { 
      
-      country.map(cot => <Country name={cot.name}></Country> )
-    }
+     country.map(cot => <Country 
+       key={cot.name}
+       name={cot}      
+     ></Country> )
+   }
+     </div>
     
-      { 
-     
-     // country.map(cot =>   console.log(cot.name) )
-    }
+      
   
    </h4>
    
