@@ -1,28 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Header from './Component/Header/Header';
 
 function App() {
 
-  
+ 
   return (
    
-    <div className="App">
-    
-    </div>
+   <Header></Header>
   );
 }
- function Person()
- {
-   const person={
-    backgroundColor: "goldenrod",
-    color:"#ffffff",
-    width: "50%"
-   }
-   return (  
 
-     <div style={person} >
-       <h1>this is </h1>
-     </div>
-   );
- }
+
 export default App;
