@@ -28,7 +28,7 @@ const Countries = () => {
     
       { 
      
-      country.map(cot =>   console.log(cot.name) )
+     // country.map(cot =>   console.log(cot.name) )
     }
   
    </h4>
