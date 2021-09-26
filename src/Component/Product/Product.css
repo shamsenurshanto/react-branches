@@ -1,0 +1,13 @@
+.product-design{
+  display: flex;
+  margin: 10px;
+  text-align: start;
+  border-bottom: 0.5px  solid rgba(195, 195, 195, 0.377);
+}
+.details{
+    width: 70%;
+    margin:3px;
+    margin-left: 35px;
+    
+   
+}
