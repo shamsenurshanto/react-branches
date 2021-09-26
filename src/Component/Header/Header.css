@@ -1,0 +1,24 @@
+.header-cs{
+  text-align: center;
+}
+.header-cs img{
+   
+    width: 20%;
+}
+.nav-d{
+   padding: 12px;
+   text-decoration: none;
+   font-size: 30px;
+   margin-right: 40px;
+   color: white;
+
+}
+.fontt{
+    background-color: black;
+    padding: 8px;
+}
+.fontt .nav-d:hover{
+  
+    border-radius: 7px;
+    color: cyan;
+}

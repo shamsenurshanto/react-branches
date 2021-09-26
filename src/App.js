@@ -2,13 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import Header from './Component/Header/Header';
+import Shop from './Component/Shop/Shop';
+
 
 function App() {
 
  
   return (
    
-   <Header></Header>
+  <div>
+      <Header></Header>
+
+       <Shop></Shop>
+  </div>
+       
   );
 }
 
