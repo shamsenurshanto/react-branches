@@ -20,7 +20,7 @@ const Countries = () => {
   
       <div className="">
          <h4>
-      The countries are {country.length}
+      The countries  {country.length}
      <div className="design">
      { 
      
