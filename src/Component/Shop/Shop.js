@@ -10,16 +10,21 @@ const Shop = () => {
         setProducts(data)
     })
    },[]);
+   const handlerFunction = (props) =>{
+       const {name,stock} = props.product;
+       console.log(name);
+   }
     return (
         <div className="shopy">
             <div className="products-component">
                         <h1>products</h1>
                         {
-                            products.map(product =><Product product={product}></Product>)
+                            products.map(product =><Product product={product} handlerFunction={handlerFunction}></Product>)
                         }
             </div>
             <div className="cart-component">
-            <h1>products</h1>
+            <h1>products Item</h1>
+            <h1>Price</h1>
              </div>
         </div>
     );

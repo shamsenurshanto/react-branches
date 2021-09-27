@@ -15,10 +15,11 @@
 }
 .fontt{
     background-color: black;
-    padding: 8px;
+    padding: 11px;
 }
 .fontt .nav-d:hover{
   
     border-radius: 7px;
-    color: cyan;
+    color: black;
+    background-color: rgba(211, 211, 211, 0.705);
 }
