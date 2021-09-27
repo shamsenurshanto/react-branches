@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Order from '../Order/Order';
 import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
    const [products,setProducts] = useState([]);
+   const [cart,setCart] = useState([]);
    useEffect(()=>{
     fetch('../products.JSON').
     then(res=>res.json()).
@@ -12,7 +14,12 @@ const Shop = () => {
    },[]);
    const handlerFunction = (props) =>{
        const {name,stock} = props.product;
-       console.log(name);
+
+       const newCart = [...cart,name];
+       setCart(newCart);
+       console.log(cart);
+     
+      
    }
     return (
         <div className="shopy">
@@ -23,8 +30,8 @@ const Shop = () => {
                         }
             </div>
             <div className="cart-component">
-            <h1>products Item</h1>
-            <h1>Price</h1>
+              
+            <Order  cart={cart}></Order>
              </div>
         </div>
     );
