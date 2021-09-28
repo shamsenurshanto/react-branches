@@ -17,9 +17,9 @@ const Shop = () => {
     })
    },[]);
    const handlerFunction = (props) =>{
-       const {name,stock} = props.product;
+       const {name,stock,img} = props.product;
 
-       const newCart = [...cart,name];
+       const newCart = [...cart,img];
        setCart(newCart);
        console.log(cart);
      
